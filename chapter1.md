@@ -1,8 +1,10 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
+
+---
 ## Ex 1.1
 
 ```yaml
@@ -13,7 +15,7 @@ skills: 1
 key: dd684bc352
 ```
 
-Do some data science.
+___Do__ some **simulation** from _normatribution._
 
 `@instructions`
 
@@ -22,25 +24,16 @@ Do some data science.
 
 
 `@pre_exercise_code`
-
 ```{r}
-
+plot rnorm(100)
 ```
-
 `@sample_code`
-
 ```{r}
-
+plot(rnorm(100))
 ```
 
-`@solution`
 
-```{r}
 
-```
 
-`@sct`
 
-```{r}
 
-```
